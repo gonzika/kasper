@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+a, svg, button {
+    transition: all .3s ease-in-out;
+}
+
+footer {
+    background-color: #121116;
+    padding-top: 115px;
+    padding-bottom: 35px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center {
+    margin-bottom: 45px;
+}
+
+.footer--text {
+font-size: 20px;
+letter-spacing: 1px;
+padding: 0 35px;
+padding-bottom: 18px;
+border-bottom: 2px solid;
+display: inline-block;
+}
+
+.footer--social a {
+    margin: 15px 13px;
+    display: inline-block;
+}
+
+.footer--social svg {
+    fill: rgb(255, 255, 255);
+}
+
+.footer--social a:hover svg {
+    fill: #00c7fc;
+}
+
+.footer--copyright {
+    font-size: 15px;
+    margin-top: 85px;
+}
+
+.footer--copyright a {
+    text-decoration: none;
+    color: #00c7fc;
+}
+
+.footer--copyright a:hover {
+    text-decoration: underline #00c7fc;
+    color: #00c7fc;
+}
+
+
+  
